@@ -1,0 +1,16 @@
+.toggle-container {
+    text-align: center;
+    margin-top: 53px;
+    height: 50vh;
+  }
+  
+.toggle-container.on {
+
+    background-color: rgb(82, 11, 104);
+    color: white;
+  }
+  
+  .toggle-container.off {
+    background-color: rgb(48, 190, 183);
+    color: white;
+  }
