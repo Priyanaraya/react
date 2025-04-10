@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Toggle.css';
 
 const Toggle = () => {
-  const [isOn, setIsOn] = useState(false);
+  const [isOn, setIsOn] = useState(true);
 
   const handleToggle = () => {
     setIsOn(prev => !prev);
